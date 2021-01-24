@@ -1,5 +1,19 @@
-body {
-  background-color: lightblue;
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap");
+nav > ul {
+  list-style: none;
+  text-align: right;
+  list-style-type: none;
+  font-family: "Barlow Condensed", sans-serif;
+}
+nav > ul li {
+  display: inline;
+  padding-right: 5%;
+  font-size: 1.2rem;
+}
+
+.nav__link {
+  color: #fe9010;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
