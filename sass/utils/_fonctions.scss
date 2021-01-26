@@ -14,3 +14,13 @@ nav > ul {
   color: $primary-color;
   text-decoration: none;
 }
+
+body {
+  background-color: aliceblue;
+  color: rgb(255, 174, 231);
+
+  @include for-phone-only {
+    color: cyan;
+    background-color: darkgray;
+  }
+}
