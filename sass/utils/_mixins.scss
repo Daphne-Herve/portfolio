@@ -1,3 +1,9 @@
 // @mixin nav-main {
 //   $palette-color: map-get($palette-color, secondary-color);
 // }
+
+@include mobile {
+  .justformobile {
+    color: cyan;
+  }
+}
