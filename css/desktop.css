@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Montserrat:wght@300;100&display=swap');
 
 .main-background {
   background: linear-gradient(
@@ -58,4 +58,29 @@ ul li {
   text-decoration: underline overline grey;
   color: grey;
   transition-duration: 1s;
+}
+
+/* ====================================================================   D3JS */
+
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: orange;
+  stroke-width: 3px;
+}
+
+.node text {
+  /* font: 12px sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
 }
