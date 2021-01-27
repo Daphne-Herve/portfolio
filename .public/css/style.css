@@ -25,6 +25,9 @@ body {
     color: cyan;
     background-color: darkgray;
   }
+  body .menu {
+    width: 25%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

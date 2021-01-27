@@ -22,5 +22,9 @@ body {
   @include for-phone-only {
     color: cyan;
     background-color: darkgray;
+
+    .menu {
+      width: 25%;
+    }
   }
 }

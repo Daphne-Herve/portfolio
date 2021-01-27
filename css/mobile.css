@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Montserrat:wght@300&display=swap');
+.main-background {
+  background: linear-gradient(
+      217deg,
+      rgba(20, 47, 80, 0.8),
+      rgba(0, 47, 255, 0) 70.71%
+    ),
+    linear-gradient(
+      127deg,
+      rgba(22, 99, 109, 0.8),
+      rgba(11, 64, 85, 0.315) 70.71%
+    ),
+    linear-gradient(
+      336deg,
+      rgba(6, 6, 49, 0.8),
+      rgba(11, 107, 163, 0.164) 70.71%
+    );
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.main-hello {
+  font-size: 80px;
+  color: rgba(72, 124, 145, 0.911);
+  z-index: 10;
+  position: fixed;
+  text-align: center;
+  margin-top: 10vh;
+  margin-left: 15%;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: bold;
+}
+
+.menu {
+  position: fixed;
+  margin-top: 30vh;
+  width: 100%;
+  z-index: 12;
+  font-size: 2rem;
+  text-align: center;
+  margin-left: -3%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.menu ul {
+  list-style-type: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu a:focus {
+  text-decoration: underline overline grey;
+  color: grey;
+  transition-duration: 1s;
+}
+
+.animMobile {
+  width: 40%;
+  height: 35%;
+  position: relative;
+  animation-name: move;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes move {
+  0% {
+    left: 0%;
+    top: 0vh;
+  }
+  25% {
+    left: 50%;
+    top: 10vh;
+  }
+  50% {
+    left: 50%;
+    top: 20vh;
+  }
+  75% {
+    left: 10%;
+    top: 10vh;
+  }
+  100% {
+    left: 0%;
+    top: 0vh;
+  }
+}
