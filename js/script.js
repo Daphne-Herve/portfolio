@@ -3,7 +3,7 @@ let listContent = ['Bonjour', 'Bonsoir'];
 let date = new Date();
 let heure = date.getHours();
 
-if (heure < 6 || heure > 18) {
+if (heure > 18) {
   document.getElementById('mainHello').innerHTML = listContent[1];
   if (window.matchMedia('(max-width: 599px)').matches) {
     document.getElementById('animMobile').style.background =
