@@ -51,7 +51,7 @@ var treeData = [
           },
           {
             name: 'Librairies',
-            parent: 'Javscript',
+            parent: 'Javascript',
             children: [
               {
                 name: 'Leaflet & cartographies',
@@ -130,9 +130,9 @@ var treeData = [
 ];
 
 // ************** Generate the tree diagram	 *****************
-var margin = { top: 20, right: 120, bottom: 20, left: 140 },
+var margin = { top: 60, right: 120, bottom: 40, left: 250 },
   width = 960 - margin.right - margin.left,
-  height = 500 - margin.top - margin.bottom;
+  height = 750 - margin.top - margin.bottom;
 
 var i = 0,
   duration = 750,

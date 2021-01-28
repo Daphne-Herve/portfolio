@@ -96,7 +96,7 @@
 
 .node circle {
   fill: #fff;
-  stroke: steelblue;
+  stroke: orange;
   stroke-width: 3px;
 }
 
@@ -109,3 +109,30 @@
   stroke: #ccc;
   stroke-width: 2px;
 }
+
+/* Navbar pages sauf accueil */
+/* .menu-pages {
+  position: fixed;
+  margin-top: 3vh;
+  width: 100%;
+  z-index: 12;
+  font-size: 1rem;
+  text-align: center;
+  margin-left: 1%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.menu-pages ul {
+  list-style-type: none;
+}
+
+.menu-pages a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu-pages a:focus {
+  text-decoration: underline overline grey;
+  color: grey;
+  transition-duration: 1s;
+} */
