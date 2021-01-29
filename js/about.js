@@ -134,7 +134,7 @@ if (window.matchMedia('(max-width: 599px)').matches) {
 
   // ************** Generate the tree diagram	 *****************
   var margin = { top: 60, right: 120, bottom: 40, left: 250 },
-    width = 960 - margin.right - margin.left,
+    width = 965 - margin.right - margin.left,
     height = 750 - margin.top - margin.bottom;
 
   var i = 0,
