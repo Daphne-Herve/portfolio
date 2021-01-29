@@ -208,6 +208,10 @@ hr {
   animation-duration: 3s;
 }
 
+.block-mobile-about {
+  display: none;
+}
+
 /* ============================================ PAGE CONTACT */
 
 .container-contact {
