@@ -296,3 +296,28 @@ ul li {
     top: -20vh;
   }
 }
+
+/* VERSION  FRONT-END MOBILE  ========== SLIDER*/
+
+.slider-projet {
+  position: absolute;
+  width: 300%;
+  height: 100vh;
+}
+
+ul li {
+  display: inline;
+  height: 50px;
+  width: 50px;
+}
+
+li > div {
+  display: inline-block;
+}
+
+div .content {
+  background-color: powderblue;
+  height: 90vh;
+  width: 20rem;
+  margin: 1rem;
+}
