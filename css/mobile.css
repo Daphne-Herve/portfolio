@@ -347,7 +347,7 @@ ul li {
 }
 
 .panel img {
-  float: left;
+  /* float: left; */
   margin-bottom: 5vh;
   width: 100%;
 }
