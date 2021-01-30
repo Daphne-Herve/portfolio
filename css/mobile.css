@@ -171,6 +171,7 @@ hr {
   height: 250px;
   background-repeat: no-repeat;
   margin-left: 10%;
+  align-content: center;
 }
 
 .circle-orange {

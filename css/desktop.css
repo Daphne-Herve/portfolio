@@ -272,3 +272,78 @@ hr {
     top: 20vh;
   }
 }
+
+/* ============================================ PAGE FRONT-END */
+
+.block-projects {
+  margin-left: 5%;
+}
+
+.projet-machine {
+  background-color: rgb(255, 148, 148);
+  margin-bottom: 5vh;
+}
+
+.projet-parallax {
+  /* background-color: rgb(255, 148, 86); */
+  margin-bottom: 2vh;
+}
+
+.projet-parallax img {
+  width: 100%;
+}
+
+/* .projet-hello {
+  background-color: rgb(255, 174, 0);
+} */
+
+.projet-hello img {
+  width: 100%;
+}
+/*
+.projet-tarot {
+  background-color: royalblue;
+} */
+
+.projet-tarot img {
+  width: 70%;
+}
+
+/* .projet-circle {
+  background-color: sandybrown;
+} */
+.projet-circle img {
+  margin-top: 5vh;
+  width: 90%;
+}
+
+/* .projet-cloud {
+  background-color: skyblue;
+} */
+
+.projet-cloud img {
+  width: 100%;
+}
+/* .projet-neon {
+  background-color: rgb(31, 77, 95);
+} */
+
+.projet-neon img {
+  width: 100%;
+}
+
+/* ============================================ ANIMATION WRITING MACHINE*/
+
+q {
+  font-size: 24px;
+  color: #8b2d74;
+  padding-left: 5%;
+}
+
+.ecrire {
+  color: #c74956;
+  background-color: #ea7434;
+  padding: 1px;
+  font-weight: bold;
+  font-size: 25px;
+}
