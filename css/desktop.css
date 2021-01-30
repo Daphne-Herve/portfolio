@@ -177,14 +177,14 @@ hr {
 }
 
 .presentation-hobby {
-  padding-left: 15%;
+  padding-left: 18%;
   padding-right: 15%;
 }
 .image-livre-favoris {
   width: 18%;
-  margin-right: 7%;
-  padding-left: 3%;
-  margin-left: 7%;
+  margin-right: 5%;
+  padding-left: 2%;
+  margin-left: 10%;
 }
 
 .text-label {
@@ -200,7 +200,7 @@ hr {
 .image-contact {
   margin-top: 5vh;
   margin-bottom: 5vh;
-  margin-left: 30%;
+  margin-left: 35%;
 }
 
 .image-contact img:hover {
