@@ -338,3 +338,7 @@ button:focus {
 .accordion-panel-title {
   margin-left: 5%;
 }
+
+.project-front-presentation {
+  text-align: center;
+}
