@@ -342,15 +342,14 @@ ul li {
   transition: max-height 0.5s ease-out;
 }
 .panel p {
-  float: right;
   margin-top: 5vh;
-  width: 80%;
+  width: 100%;
 }
 
 .panel img {
   float: left;
-  margin-top: 5vh;
-  width: 15%;
+  margin-bottom: 5vh;
+  width: 100%;
 }
 
 button:focus {

@@ -283,7 +283,7 @@ button:focus {
 
 .accordion {
   background-color: white;
-  color: #444;
+  color: rgb(248, 138, 11);
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -316,7 +316,7 @@ button:focus {
 
 .panel {
   padding: 0 18px;
-  margin-top: 5vh;
+  margin-top: 2vh;
   background-color: white;
   max-height: 0;
   overflow: hidden;
@@ -324,12 +324,17 @@ button:focus {
 }
 .panel p {
   float: right;
-  margin-top: 5vh;
-  width: 80%;
+  width: 55%;
+  margin-right: 5%;
 }
 
 .panel img {
   float: left;
-  margin-top: 5vh;
-  width: 15%;
+  width: 30%;
+  margin-bottom: 5vh;
+  margin-left: 5%;
+}
+
+.accordion-panel-title {
+  margin-left: 5%;
 }
