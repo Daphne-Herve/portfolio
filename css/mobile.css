@@ -145,7 +145,7 @@ hr {
 
 .text-description {
   font-family: 'Roboto', sans-serif;
-  margin-right: 3%;
+  margin-right: 1%;
 }
 
 .card-about p {
@@ -173,10 +173,6 @@ hr {
 .block-mobile-about {
   width: 90%;
   margin-left: 5%;
-}
-
-.text-description {
-  font-family: 'Roboto', sans-serif;
 }
 
 .text-description-weight {
@@ -212,9 +208,9 @@ hr {
 }
 
 .image-livre-favoris {
-  width: 70%;
+  width: 60%;
 
-  margin-left: 2.5rem;
+  margin-left: 3.5rem;
   padding-left: 2rem;
   padding-bottom: 2rem;
 }
