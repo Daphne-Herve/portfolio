@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 .main-background {
   background: linear-gradient(
       217deg,
@@ -35,11 +37,10 @@
   position: fixed;
   margin-top: 30vh;
   width: 90%;
-  z-index: 12;
+  z-index: 3;
   font-size: 2rem;
   text-align: center;
-  /* margin-left: -3%; */
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .menu ul {
@@ -90,6 +91,11 @@
   }
 }
 
+.project-front-presentation {
+  font-family: 'Roboto', sans-serif;
+  margin-left: 5%;
+}
+
 /* ============================================ PAGE ABOUT D3JS */
 
 /* Pas de collpase tree en version mobile -> display none */
@@ -132,11 +138,18 @@ hr {
   z-index: 3;
   margin-top: -8vh;
   text-align: center;
-  margin-right: 8%;
-  margin-left: 8%;
   color: orange;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 1rem;
+}
+
+.text-description {
+  font-family: 'Roboto', sans-serif;
+  margin-right: 3%;
+}
+
+.card-about p {
+  font-family: 'Roboto', sans-serif;
 }
 
 .card-about {
@@ -148,13 +161,13 @@ hr {
 .text-label {
   color: orange;
   margin-bottom: 5vh;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .text-label-skills {
   padding-left: 5%;
   color: orange;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .block-mobile-about {
@@ -162,8 +175,18 @@ hr {
   margin-left: 5%;
 }
 
+.text-description {
+  font-family: 'Roboto', sans-serif;
+}
+
+.text-description-weight {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: orange underline;
+}
+
 .skill-name {
   text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .circle-pink {
@@ -259,6 +282,8 @@ ul li {
   font-family: 'Courier New', Courier, monospace;
   z-index: 3;
   position: relative;
+  color: white;
+  font-size: 18px;
 }
 
 .animMobile-contact {
@@ -344,6 +369,7 @@ ul li {
 .panel p {
   margin-top: 5vh;
   width: 100%;
+  font-family: 'Roboto', sans-serif;
 }
 
 .panel img {

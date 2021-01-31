@@ -25,7 +25,7 @@
   color: rgba(72, 124, 145, 0.911);
   z-index: 10;
   position: fixed;
-  margin-left: 35%;
+  margin-left: 30%;
   margin-top: 20vh;
   font-family: 'Barlow Condensed', sans-serif;
   font-weight: bold;
@@ -139,14 +139,25 @@ ul li {
 
 .text-hello {
   color: orange;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   text-align: center;
   margin-top: 10vh;
 }
 
+.text-description {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.text-description-weight {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: orange underline;
+  font-size: 18px;
+}
+
 .card-about {
-  width: 50%;
-  margin-left: 25%;
+  width: 58%;
+  margin-left: 20%;
   margin-bottom: 10vh;
 }
 
@@ -177,7 +188,7 @@ hr {
 }
 
 .presentation-hobby {
-  padding-left: 18%;
+  padding-left: 14%;
   padding-right: 15%;
 }
 .image-livre-favoris {
@@ -200,7 +211,7 @@ hr {
 .image-contact {
   margin-top: 5vh;
   margin-bottom: 5vh;
-  margin-left: 35%;
+  margin-left: 30%;
 }
 
 .image-contact img:hover {
@@ -231,10 +242,11 @@ hr {
 .contact-presentation {
   text-align: center;
   margin-top: 10vh;
-  font-size: 20px;
+  font-size: 22px;
   font-family: 'Courier New', Courier, monospace;
   z-index: 4;
   position: relative;
+  color: white;
 }
 
 .animDesktop-contact {
@@ -326,6 +338,8 @@ button:focus {
   float: right;
   width: 55%;
   margin-right: 5%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
 }
 
 .panel img {
@@ -341,4 +355,6 @@ button:focus {
 
 .project-front-presentation {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
 }

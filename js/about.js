@@ -41,7 +41,7 @@ if (window.matchMedia('(max-width: 599px)').matches) {
           ],
         },
         {
-          name: 'Javscript',
+          name: 'Javascript',
           parent: 'Compétences',
           children: [
             {
