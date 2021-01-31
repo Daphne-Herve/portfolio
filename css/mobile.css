@@ -58,6 +58,10 @@
   transition-duration: 1s;
 }
 
+.menu-link-main {
+  display: none;
+}
+
 .animMobile {
   width: 42%;
   height: 35%;
