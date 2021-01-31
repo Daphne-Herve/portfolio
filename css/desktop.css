@@ -398,12 +398,24 @@ button:focus {
     top: 6vh;
   }
 } */
+.panel .screen-news-app {
+  width: 33%;
+}
 
 .panel .screen-chatbox {
+  margin-right: 3%;
   width: 13.5%;
 }
 
 .panel .screen-chatbox2 {
   width: 13.5%;
+}
+
+.panel .screen-weather {
+  width: 13.5%;
+}
+
+.panel .screen-weather2 {
   margin-right: 3%;
+  width: 13.5%;
 }
