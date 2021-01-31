@@ -93,7 +93,6 @@ ul li {
 /* ============================================ PAGE ABOUT */
 
 .menu-about {
-  /* margin-top: 5vh; */
   padding-left: 30%;
   width: 100%;
   font-size: 1.5rem;
@@ -118,6 +117,7 @@ ul li {
   display: inline-block;
   padding-right: 10%;
 }
+
 .menu-about a {
   text-decoration: none;
   color: black;
@@ -362,3 +362,39 @@ button:focus {
 .front-link {
   color: orange;
 }
+/*
+.anim-desktop-petit {
+  background-image: url('../images/svg/soleil-petit.svg');
+  width: 10%;
+  height: 15vh;
+  position: fixed;
+  z-index: 4;
+  animation-name: move-petit;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-repeat: no-repeat;
+}
+
+@keyframes move-petit {
+  0% {
+    left: 10%;
+    top: 3vh;
+  }
+  25% {
+    left: 20%;
+    top: 7.3vh;
+  }
+  50% {
+    left: 35%;
+    top: 8vh;
+  }
+  75% {
+    left: 60%;
+    top: 2vh;
+  }
+  100% {
+    left: 85%;
+    top: 6vh;
+  }
+} */
