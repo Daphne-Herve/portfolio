@@ -398,3 +398,12 @@ button:focus {
     top: 6vh;
   }
 } */
+
+.panel .screen-chatbox {
+  width: 13.5%;
+}
+
+.panel .screen-chatbox2 {
+  width: 13.5%;
+  margin-right: 3%;
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Daphné H.</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 599px)"
+      href="../css/mobile.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 1200px)"
+      href="../css/desktop.css"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="menu-sticky">
+        <nav class="menu-about">
+          <ul>
+            <li><a href="./main.html" class="menu-link-main">Accueil</a></li>
+            <li><a href="./front-end.html">Front-end</a></li>
+            <li><a href="./about.html">Profil</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- <div class="anim-desktop-petit"></div> -->
+      <div class="block-projet-front">
+        <hr />
+        <p class="project-front-presentation">
+          Je regroupe ici quelques applications plus complètes qui récupère des
+          APIs, ont des méthodes de connexion ou font appel à une base de
+          données.
+        </p>
+        <hr />
+        <button class="accordion">Projet n° 1 : Météo en temps réel</button>
+        <div class="panel">
+          <img
+            class="projet-parallax"
+            src="../images/gif/blackandwhite.gif"
+            alt="images en noir et blanc animées par défilement de la souris"
+          />
+          <p>
+            Cette application récupère les données d'une API : weather api et
+            les affichent selon la localisation. Il est aussi possible d'entrer
+            manuellement une ville de son choix. <br />
+            <br />
+            Le visuel diffère selon l'heure de la journée et la météo. Une
+            esthétique plus sombre s'il pleut, des couleurs plus chaudes par
+            grand soleil. <br />
+            <br />
+            Ce projet est en javascript natif avec une méthode fetch.
+          </p>
+        </div>
+
+        <button class="accordion">Projet n° 2 : Veille numérique</button>
+        <div class="panel">
+          <img
+            src="../images/gif/circle-move.gif"
+            alt="aimation avec un cercle qui tourne et un fond coloré"
+          />
+          <p>
+            Il s'agit d'une application de veille numérique. Elle propose à
+            l'utilisateur de se connecter pour accéder à un contenu
+            personnalisé. Il peut alors, consulter les actualités les plus
+            récentes des sujets qui l'intéresse et qu'il a lui même
+            sélectionner. <br />
+            <br />
+            Je me suis inspirée de google actualité et Netvibes pour cette
+            application qui s'appuit sur des flux RSS. L'utilisateur peut donc
+            cliquer sur le lien relatif à l'article et il est redirigé
+            immédiatement vers le site source.
+          </p>
+        </div>
+
+        <button class="accordion">Projet n° 3 : Messagerie instantanée</button>
+        <div class="panel">
+          <img
+            class="screen-chatbox"
+            src="../images/png/screen-chatbox.png"
+            alt="capture d'écran de mon application de messagerie instantanée : les messages"
+          />
+          <img
+            class="screen-chatbox2"
+            src="../images/png/screen-chatbox2.png"
+            alt="capture d'écran de mon application de messagerie instantanée : la connexion"
+          />
+          <p>
+            Mon premier projet en React. Très inspiré d'un tutoriel que j'ai
+            suivi et qui m'a permis de me familiariser avec ce nouveau langage.
+            J'y ai alors apporter ma touche personnalisée pour le design et j'ai
+            ajouté une méthode de connexion.
+            <br /><br />
+            Les messages sont récupérés dans une base de donnes NoSql en les
+            associant à l'utilisateur via un timestamp.
+          </p>
+        </div>
+
+        <button class="accordion">Projet n° 4 : Promenade d'un 1km</button>
+        <div class="panel">
+          <img
+            src="../images/gif/tarot.gif"
+            alt="animation: des cartes de tarot qui sont dévoilées à tour de rôle"
+          />
+          <p>
+            En réaction à l'actualité sanitaire et réglementaire, j'ai suivi
+            l'idée d'un ami et j'ai moi même développé une application
+            permettant de définir un périmètre de 1km autour de soi.
+            <br /><br />
+            Ce petit programme rigolo m'a surtout appris à utiliser la librairie
+            Leaflet pour la cartographie et la méthode de géolocalisation en
+            javascript natif.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="../js/front-end.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+      integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
