@@ -358,3 +358,7 @@ button:focus {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
 }
+
+.front-link {
+  color: orange;
+}

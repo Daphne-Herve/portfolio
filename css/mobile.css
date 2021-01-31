@@ -377,3 +377,7 @@ ul li {
 button:focus {
   outline: none;
 }
+
+.front-link {
+  color: orange;
+}

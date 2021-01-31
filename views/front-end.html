@@ -59,8 +59,11 @@
           />
           <p>
             Projet en noir et blanc et au contraste soutenu. Réalisé en pur CSS,
-            il s'appuit sur un effet parallax pour mettre en valeur au mieux les
-            images qui le composent.
+            il s'appuit sur un effet parallax pour mettre en valeur les images
+            qui le composent. <br />
+            L'effet scroll snap type prends tout son sens avec ce genre de
+            projet pour marquer des points d'arrêts et éviter les frictions au
+            scroll.
           </p>
         </div>
 
@@ -71,9 +74,12 @@
             alt="aimation avec un cercle qui tourne et un fond coloré"
           />
           <p>
-            Projet de SVG animé grâce à la librairie Vivus.js. Le SVG contient
-            également des balises 'LinearGradient' et 'Animate' ce qui lui donne
-            de belles couleurs chatoyantes.
+            Animation issue de mes recherches sur les SVG animés. Cela m'a
+            également permis de tester la librairie Vivus.js. <br />
+            Le SVG contient également des balises 'LinearGradient' et 'Animate'
+            qui lui donnent de belles couleurs chatoyantes. <br /><br />
+            Visuel qui pourrait s'apparenter à un logo, idéal pour une landing
+            page.
           </p>
         </div>
 
@@ -86,12 +92,12 @@
           <p>
             Projet créé en CSS pur. Il s'agit d'un effet de défilement révélant
             alors de petits mots tout doux.
-          </p>
-          <p>
+            <br /><br />
             J'ai imaginé cette animation pour accompagner mon réveil dans une
-            autre application que vous trouverez <a href="#">ici</a>. J'ai en
-            effet créer un programme qui m'indique la météo du jour, cette
-            animation sera du plus bel effet pour accueillir le soleil.
+            autre application que vous trouverez
+            <a class="front-link" href="#">ici</a>. J'ai en effet créé un
+            programme qui m'indique la météo du jour, cette animation sera du
+            plus bel effet pour accueillir le soleil.
           </p>
         </div>
 
@@ -102,9 +108,13 @@
             alt="animation: des cartes de tarot qui sont dévoilées à tour de rôle"
           />
           <p>
-            Petit teasing d'un jeu en préparation : un tarot bienveillant avec
-            des cartes dévoilées à tour de rôle. C'est un hover dans le css qui
-            révèle les cartes sur cette animation.
+            Petit teasing d'un jeu en préparation : un tarot exlusivement
+            bienveillant avec des cartes dévoilées à tour de rôle. C'est un
+            hover dans le css qui révèle les cartes sur cette animation.
+            <br /><br />
+            L'idée est de n'apporter que des réponses positives à demandeur. Il
+            pourra poser sa question et le jeu lui proposera des cartes et une
+            prédiction associée.
           </p>
         </div>
 
@@ -115,10 +125,13 @@
             alt="image : un nuage avec un dégradé coloré"
           />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Ce nuage chaleureux est une association de plusieurs effets visuels.
+            <br /><br />
+            Un calque flou s'applique sur une image dont le dégradé coloré est
+            animé. Un texte vient se superposer au visuel.
+            <br /><br />
+            Ces fonds mouvants et colorés sont en vogue actuellement et je
+            voulais également en faire l'exercice.
           </p>
         </div>
 
@@ -132,32 +145,16 @@
             alt="image : un mot avec effet néon sur fond sombre"
           />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            En cours : un mot avec un effet néon rose. L'objectif est de créer
+            une animation colorée autour de cet aspect néon avec un fondu
+            dégradé vers d'autres tonalités : bleu, vert). <br />
+            HTML et CSS pour le moment mais dans un second temps une animation
+            en svg avec des mots qui changent n'est pas exlue.
           </p>
         </div>
       </div>
     </div>
-    <script>
-      let acc = document.getElementsByClassName('accordion');
-      let i;
-      let image = document.getElementById('invisible');
-
-      for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener('click', function () {
-          this.classList.toggle('active');
-          let panel = this.nextElementSibling;
-          if (panel.style.maxHeight) {
-            panel.style.maxHeight = null;
-          } else {
-            panel.style.maxHeight = panel.scrollHeight + 'px';
-          }
-        });
-      }
-    </script>
-    <script type="text/javascript" src="../js/front.js"></script>
+    <script type="text/javascript" src="../js/front-end.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
