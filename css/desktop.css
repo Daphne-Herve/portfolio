@@ -1,33 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Montserrat:wght@300;100&display=swap');
-
 .main-background {
-  background: linear-gradient(
-      217deg,
-      rgba(20, 47, 80, 0.8),
-      rgba(0, 47, 255, 0) 70.71%
-    ),
-    linear-gradient(
-      127deg,
-      rgba(22, 99, 109, 0.8),
-      rgba(11, 64, 85, 0.315) 70.71%
-    ),
-    linear-gradient(
-      336deg,
-      rgba(6, 6, 49, 0.8),
-      rgba(11, 107, 163, 0.164) 70.71%
-    );
-  background-repeat: no-repeat;
+  background-color: white;
   height: 100vh;
 }
 
 .main-hello {
   font-size: 135px;
-  color: rgba(72, 124, 145, 0.911);
+  color: rgb(253, 253, 253);
   z-index: 10;
   position: fixed;
-  margin-left: 30%;
+  margin-left: 35%;
   margin-top: 20vh;
-  font-family: 'Barlow Condensed', sans-serif;
   font-weight: bold;
 }
 
@@ -78,7 +60,6 @@ ul li {
 }
 
 .node text {
-  /* font: 12px sans-serif; */
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
   font-size: 12px;
