@@ -400,12 +400,3 @@ button:focus {
   margin-right: 3%;
   width: 13.5%;
 }
-
-/* ====================================================WIDE SCREEN  */
-@media screen and (min-width: 1440px) {
-  .profilpicture {
-    background-image: url('../images/png/picprofil-wide-desktop.png');
-    background-repeat: no-repeat;
-    margin-bottom: 15vh;
-  }
-}
