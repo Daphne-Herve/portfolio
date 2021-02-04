@@ -1,14 +1,4 @@
-// let listContent = ['Bonjour', 'Bonsoir'];
-
-// let date = new Date();
-// let heure = date.getHours();
-
-// if (heure > 1) {
-//   document.getElementById('mainHello').innerHTML = 'Bonjour';
-if (window.matchMedia('(max-width: 599px)').matches) {
-  document.getElementById('animMobile').style.background =
-    "url('../images/svg/soleil-mobile.svg') no-repeat right top";
-} else {
+if (window.matchMedia('(min-width: 1200px)').matches) {
   let x = 0;
   let y = 0;
 
@@ -58,6 +48,9 @@ if (window.matchMedia('(max-width: 599px)').matches) {
     document.write('</a>');
     document.write('</div>');
   }
+} else {
+  document.getElementById('animMobile').style.background =
+    "url('../images/svg/soleil-mobile.svg') no-repeat right top";
   //   }
   // } else {
   //   document.getElementById('mainHello').innerHTML = listContent[0];

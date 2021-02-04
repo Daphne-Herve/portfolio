@@ -1,5 +1,5 @@
-if (window.matchMedia('(max-width: 599px)').matches) {
-  document.getElementById('animMobile').style.backgroundColor = 'blue';
+if (window.matchMedia('(max-width: 1199px)').matches) {
+  document.getElementById('image-click-desktop').style.display = 'none';
 } else {
   var treeData = [
     {

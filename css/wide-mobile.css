@@ -11,8 +11,8 @@
   z-index: 10;
   position: fixed;
   text-align: center;
-  margin-top: 10vh;
-  margin-left: 20%;
+  margin-top: 13vh;
+  margin-left: 28%;
   font-weight: bold;
 }
 
@@ -117,7 +117,7 @@ hr {
   width: 100%;
   height: 292px;
   position: relative;
-  background-image: url('../images/jpg/profil-mobile.jpg');
+  background-image: url('../images/png/picprofil-tablet-port.png');
   background-repeat: no-repeat;
 }
 
@@ -177,7 +177,7 @@ hr {
   background-image: url(../images/svg/circle-pink_animated.svg);
   height: 250px;
   background-repeat: no-repeat;
-  margin-left: 10%;
+  margin-left: 33%;
   align-content: center;
   animation-delay: 2s;
 }
@@ -186,28 +186,27 @@ hr {
   background-image: url(../images/svg/circle-orange_animated.svg);
   height: 250px;
   background-repeat: no-repeat;
-  margin-left: 10%;
+  margin-left: 30%;
 }
 
 .circle-blue {
   background-image: url(../images/svg/circle-blue_animated.svg);
   height: 250px;
   background-repeat: no-repeat;
-  margin-left: 10%;
+  margin-left: 30%;
 }
 
 .image-livre-favoris {
-  width: 60%;
-
-  margin-left: 3.5rem;
+  width: 25%;
+  margin-left: 2rem;
   padding-left: 2rem;
   padding-bottom: 2rem;
 }
 
 .image-contact img {
-  width: 92%;
+  width: 50%;
   margin-bottom: 3vh;
-  margin-left: -2%;
+  margin-left: 20%;
 }
 
 /* ============================================ MENU GENERAL */
@@ -373,29 +372,29 @@ button:focus {
 
 .panel .screen-chatbox {
   margin-left: 20%;
-  width: 60%;
+  width: 20%;
 }
 
 .panel .screen-chatbox2 {
   margin-left: 20%;
-  width: 60%;
+  width: 20%;
 }
 
 .panel .screen-weather {
   margin-left: 20%;
-  width: 60%;
+  width: 20%;
 }
 
 .panel .screen-weather2 {
   margin-left: 20%;
-  width: 60%;
+  width: 20%;
 }
 
-/* ====================================================RESPONSIV LANDSCAPE  exemple GALAXY S3 */
+/* ====================================================RESPONSIV LANDSCAPE  */
 @media screen and (orientation: landscape) {
   .main-hello {
-    margin-top: 10vh;
-    margin-left: 33%;
+    margin-top: 15vh;
+    margin-left: 40%;
   }
 
   .menu {
@@ -429,8 +428,9 @@ button:focus {
   }
 
   .profilpicture {
-    background-image: url('../images/png/picprofil-wide-mobile.png');
+    background-image: url('../images/png/picprofil-tablet-land.png');
     background-repeat: no-repeat;
+    margin-bottom: 15vh;
   }
 
   .text-hello {
@@ -438,12 +438,12 @@ button:focus {
   }
 
   .circle-pink {
-    margin-left: 30%;
+    margin-left: 34%;
   }
 
   .circle-orange,
   .circle-blue {
-    margin-left: 27%;
+    margin-left: 31%;
   }
 
   .image-livre-favoris {
