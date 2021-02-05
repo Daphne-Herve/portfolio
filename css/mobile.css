@@ -46,7 +46,7 @@
 }
 
 .animMobile {
-  width: 42%;
+  width: 47%;
   height: 35%;
   position: relative;
   animation-name: move;
@@ -272,7 +272,7 @@ ul li {
 }
 
 .animMobile-contact {
-  width: 42%;
+  width: 47%;
   height: 35%;
   position: relative;
   z-index: 0;
