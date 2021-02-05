@@ -129,7 +129,6 @@ ul li {
 .text-description {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
-  margin-bottom: -5vh;
 }
 
 .text-description-weight {
@@ -166,7 +165,7 @@ hr {
 
 .block-bottom {
   position: absolute;
-  margin-top: 73vh;
+  margin-top: 85vh;
   z-index: 1;
 }
 
