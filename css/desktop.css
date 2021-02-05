@@ -150,7 +150,7 @@ hr {
   background-image: url('../images/png/image-click.png');
   width: 10%;
   height: 15vh;
-  margin-top: 32vh;
+  margin-top: 36vh;
   margin-left: 11%;
   background-repeat: no-repeat;
   position: absolute;
@@ -164,7 +164,7 @@ hr {
 
 .block-bottom {
   position: absolute;
-  margin-top: 92vh;
+  margin-top: 90vh;
   z-index: 1;
 }
 
