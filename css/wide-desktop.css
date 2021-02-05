@@ -152,7 +152,7 @@ hr {
   width: 10%;
   height: 15vh;
   margin-top: 27vh;
-  margin-left: 10%;
+  margin-left: 9%;
   background-repeat: no-repeat;
   position: absolute;
   z-index: 5;
@@ -165,7 +165,7 @@ hr {
 
 .block-bottom {
   position: absolute;
-  margin-top: 85vh;
+  margin-top: 73vh;
   z-index: 1;
 }
 
